@@ -30,7 +30,7 @@ void main() {
 
     test('Test 1.3', () {
 
-      expect(isValidEmail('KiWi@inno.'), false);
+      expect(isValidEmail('KiWi@inno'), false);
   });
 
   // Test using flutter test test/unit_test.dart

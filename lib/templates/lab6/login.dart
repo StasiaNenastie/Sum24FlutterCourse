@@ -50,7 +50,7 @@ class LoginScreen extends StatelessWidget {
               height: 50,
               child: ElevatedButton(
                 onPressed: () {},
-                child: Text(AppLocalizations.of(context)!.title),
+                child: Text(AppLocalizations.of(context)!.title), 
                 style: ElevatedButton.styleFrom(
                   foregroundColor: Colors.red,
                 ),
